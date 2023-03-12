@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ccman\\group-5\\DbProject.Infrastructure.EntityFramework\\DbProject.Infrastructure.EntityFramework.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ccman\\group-5\\DbProject.Infrastructure.EntityFramework\\DbProject.Infrastructure.EntityFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ccman\\group-5\\DbProject.Infrastructure.EntityFramework\\DbProject.Infrastructure.EntityFramework.csproj",
+        "projectName": "DbProject.Infrastructure.EntityFramework",
+        "projectPath": "C:\\Users\\ccman\\group-5\\DbProject.Infrastructure.EntityFramework\\DbProject.Infrastructure.EntityFramework.csproj",
+        "packagesPath": "C:\\Users\\ccman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ccman\\group-5\\DbProject.Infrastructure.EntityFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ccman\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
